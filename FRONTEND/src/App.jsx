@@ -9,7 +9,7 @@ function App() {
   const [result, setResult] = useState(null);
 
   const generateEmail = async () => {
-    const response = await fetch("http://127.0.0.1:8000/company", {
+    const response = await fetch("https://ai-sdr-backend-79iq.onrender.com/company", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
